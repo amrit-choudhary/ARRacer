@@ -15,6 +15,7 @@ public class Test : MonoBehaviour {
         //obs1 = Helpers.MirrorVertical(obs1);
         //obs1 = Helpers.Negative(obs1);
         ApplyObs();
+        Debug.Log(Helpers.GetRating(obs1));
     }
 	
 	// Update is called once per frame

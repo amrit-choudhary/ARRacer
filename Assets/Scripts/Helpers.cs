@@ -76,4 +76,11 @@ public class Helpers {
         return output;
     }
 
+    public static int GetRating(Obstacle input) {
+        int rating = (input.list[0] ? 1 : 0) + (input.list[1] ? 1 : 0) + (input.list[2] ? 1 : 0) +
+                     (input.list[3] ? 1 : 0) + (input.list[4] ? 1 : 0) + (input.list[5] ? 1 : 0) +
+                     (input.list[6] ? 1 : 0) + (input.list[7] ? 1 : 0) + (input.list[8] ? 1 : 0);
+        return rating;
+    }
+
 }
